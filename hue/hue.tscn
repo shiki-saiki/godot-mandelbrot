@@ -1,11 +1,11 @@
 [gd_scene load_steps=4 format=3 uid="uid://bhwpsjaeod2g7"]
 
-[ext_resource type="Shader" path="res://hue1.gdshader" id="1_3vf3d"]
-[ext_resource type="Script" path="res://hue1.gd" id="2_efxvl"]
+[ext_resource type="Shader" path="res://hue/hue.gdshader" id="1_eq2kw"]
+[ext_resource type="Script" path="res://hue/hue.gd" id="2_45jxt"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ia2qq"]
-shader = ExtResource("1_3vf3d")
+shader = ExtResource("1_eq2kw")
 
 [node name="Hue1" type="Node2D"]
 material = SubResource("ShaderMaterial_ia2qq")
-script = ExtResource("2_efxvl")
+script = ExtResource("2_45jxt")

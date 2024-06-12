@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://ga7xiet0jdhf"]
+
+[ext_resource type="Script" path="res://mandelbrot/mandelbrot.gd" id="1_75ck5"]
+[ext_resource type="Shader" path="res://mandelbrot/mandelbrot.gdshader" id="1_h3xte"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_la46p"]
+shader = ExtResource("1_h3xte")
+shader_parameter/iteration = 40
+shader_parameter/position = Vector2(0, 0)
+shader_parameter/scale = 2.0
+
+[node name="Mandelbrot" type="Node2D"]
+material = SubResource("ShaderMaterial_la46p")
+script = ExtResource("1_75ck5")

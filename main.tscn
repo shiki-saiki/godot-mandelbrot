@@ -1,9 +1,9 @@
 [gd_scene load_steps=3 format=3 uid="uid://bg1dt0g3fqbyq"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_oncxf"]
-[ext_resource type="PackedScene" uid="uid://0nf0j613gspj" path="res://fractal.tscn" id="2_wclwu"]
+[ext_resource type="PackedScene" uid="uid://ga7xiet0jdhf" path="res://mandelbrot/mandelbrot.tscn" id="2_jhbs2"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_oncxf")
 
-[node name="Fractal" parent="." instance=ExtResource("2_wclwu")]
+[node name="Mandelbrot" parent="." instance=ExtResource("2_jhbs2")]
