@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://w5i7f4aoms86"
+path="res://.godot/imported/fractal.glsl-977f26e40cf37a4e351725bdaca39c77.res"
+
+[deps]
+
+source_file="res://fractal.glsl"
+dest_files=["res://.godot/imported/fractal.glsl-977f26e40cf37a4e351725bdaca39c77.res"]
+
+[params]
+
