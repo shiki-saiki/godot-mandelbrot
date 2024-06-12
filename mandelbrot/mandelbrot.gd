@@ -12,9 +12,9 @@ func _draw() -> void:
 
 func _physics_process(delta: float) -> void:
 	if Input.is_action_pressed("zoom_out"):
-		uf_scale *= 1.0 + 1.0/32.0
+		uf_scale *= 1.0 + 1.0/64.0
 	if Input.is_action_pressed("zoom_in"):
-		uf_scale /= 1.0 + 1.0/32.0
+		uf_scale /= 1.0 + 1.0/64.0
 	if Input.is_action_pressed("iter+"):
 		if uf_iteration < 200:
 			uf_iteration += 1
