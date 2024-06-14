@@ -2,7 +2,7 @@ shader_type canvas_item;
 
 uniform int iteration = 40;
 uniform vec2 position = vec2(0.0);
-uniform float scale = 2.0;
+uniform vec2 scale = vec2(2.0);
 
 const mat3 XYL_TO_RGB = mat3(
 	vec3(2.0*inversesqrt(6.0), -inversesqrt(6.0), -inversesqrt(6.0)),
@@ -58,7 +58,7 @@ void vertex() {
 }
 
 void fragment() {
-	vec2 p = (UV - 0.5)*2.0*scale + position;
+	vec2 p = (UV - 0.5) * scale + position;
 	vec2 q = p;
 	for (int i = 0; i < iteration; ++i) {
 		q = cmul(q, q) + p;

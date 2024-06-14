@@ -7,7 +7,7 @@
 shader = ExtResource("1_h3xte")
 shader_parameter/iteration = 40
 shader_parameter/position = Vector2(0, 0)
-shader_parameter/scale = 2.0
+shader_parameter/scale = Vector2(2, 2)
 
 [node name="Mandelbrot" type="Node2D"]
 material = SubResource("ShaderMaterial_la46p")
