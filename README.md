@@ -6,6 +6,8 @@
 
 参照: [Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%B3%E3%83%87%E3%83%AB%E3%83%96%E3%83%AD%E9%9B%86%E5%90%88)
 
+[Godot](https://godotengine.org/)で作りました。
+
 ## バイナリーファイルのダウンロード
 
 [v1.0.0](https://github.com/shiki-saiki/godot-mandelbrot/releases/tag/v1.0.0)
