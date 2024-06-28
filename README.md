@@ -8,6 +8,8 @@
 
 [Godot](https://godotengine.org/)で作りました。
 
+製作期間: 約2週間
+
 ## バイナリーファイルのダウンロード
 
 [v1.0.0](https://github.com/shiki-saiki/godot-mandelbrot/releases/tag/v1.0.0)
